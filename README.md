@@ -66,3 +66,46 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+----
+# Test task
+
+February 20, 2020
+
+## Prerequisites
+
+Let's say we have a system and a part of this system is API keys management. It is possible to create API keys using REST API and use those keys for other API calls instead of a password.
+
+### Current API
+
+Host: `https://sheltered-harbor-77308.herokuapp.com`
+
+### Methods:
+
+`GET / - get all apikeys`
+
+`GET /:id - get one apikey by id`
+
+`POST / - create new apikey (send empty body)`
+
+`DELETE /:id - delete apikey`
+
+`DELETE / - delete all apikeys`
+
+## You received a proposal:
+
+We think that it's not a good idea to store API keys in row format. Let's improve the security
+
+We need UI to manage API keys
+
+You are a Frontend developer + Product manager + Designer and you are responsible for implementing this feature. You can talk to backend guys and propose them API improvements, you can talk to business guys to clarify any question or to give any suggestions. 
+
+**As a result, users should be happy and IT team should be happy (if possible:))**
+
+### What we expect from you:
+
+- Create a concept for this feature
+- Discuss it with business and development teams, refine the concept if needed, come to a solution that satisfies everybody
+- Decide what MVP you can do in a remaining time
+- Develop frontend for this feature
+- Spend all together a maximum of 6 hours
